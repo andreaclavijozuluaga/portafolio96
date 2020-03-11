@@ -83,3 +83,33 @@ p.texto-sobre-mi{
     color:rgb(88, 87, 92) ;
     font-size: 18px;
 }
+
+.inicio{
+    display: flex;
+}
+
+.imagen-inicio{
+    width: 500px;
+    margin-left: 20px;
+}
+
+.titulo-inicio{
+    padding-left: 300px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans Condensed';
+    font-size: 42px;
+    color:rgb(34, 30, 71) ;
+    border-right: solid rgb(34, 30, 71) ;
+}
+
+.texto-inicio {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-family: 'PT Sans Narrow';
+    color:rgb(88, 87, 92) ;
+    font-size: 18px;
+    text-align: justify;
+}
