@@ -32,7 +32,7 @@ header {
     .contenedor-barra-de-navegacion {
         width: 100%;
         padding: 5px;
-    
+
 
     }
 }
@@ -130,11 +130,11 @@ section {
     padding: 20px;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 700px){
-    .imagen{
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .imagen {
         width: 330px;
     }
-    }
+}
 
 
 .texto-introduccion {}
@@ -221,6 +221,7 @@ p.texto-sobre-mi {
         width: 340px;
     }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .imagen-inicio {
         width: 300x;
@@ -277,6 +278,7 @@ p.texto-sobre-mi {
 .contenedor-landing {
     display: flex;
 }
+
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .contenedor-landing {
         display: block;
@@ -294,13 +296,17 @@ p.texto-sobre-mi {
 .imagen-landing {
     width: 700px;
     margin-left: 20px;
+    margin-top: 10px;
+    border-radius: 10px;
 }
+
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .imagen-landing {
         width: 340px;
 
     }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .imagen-landing {
         margin-top: 30px;
@@ -344,6 +350,7 @@ p.texto-sobre-mi {
     font-size: 18px;
     text-align: justify;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .texto-landing {
         margin-bottom: 30px;
@@ -358,6 +365,7 @@ p.texto-sobre-mi {
     display: flex;
     flex-direction: row-reverse;
 }
+
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .contenedor-studio {
         display: block;
@@ -375,6 +383,7 @@ p.texto-sobre-mi {
 .imagen-studio {
     width: 400px;
     margin-right: 130px;
+    border-radius: 10px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -391,9 +400,10 @@ p.texto-sobre-mi {
 
     }
 }
+
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .imagen-studio {
-        margin-left:180px;
+        margin-left: 180px;
 
     }
 }
@@ -407,6 +417,7 @@ p.texto-sobre-mi {
     color: rgb(34, 30, 71);
     border-left: solid rgb(34, 30, 71);
 }
+
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .titulo-studio {
         padding-left: 90px;
@@ -425,6 +436,7 @@ p.texto-sobre-mi {
     font-size: 18px;
     text-align: justify;
 }
+
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .texto-studio {
         margin-left: 20px;
@@ -443,9 +455,10 @@ p.texto-sobre-mi {
     display: flex;
     margin-top: 20px;
 }
+
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .contenedor-formulario {
-       display: block;
+        display: block;
 
     }
 }
@@ -460,12 +473,13 @@ p.texto-sobre-mi {
 .imagen-formulario {
     width: 600px;
     margin-left: 60px;
+    border-radius: 10px;
 }
 
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .imagen-formulario {
-      width: 365px;
-      margin-left: 5px;
+        width: 365px;
+        margin-left: 5px;
     }
 }
 
@@ -482,8 +496,8 @@ p.texto-sobre-mi {
 
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .titulo-formulario {
-       padding-left: 100px;
-       font-size: 30px;
+        padding-left: 100px;
+        font-size: 30px;
 
     }
 }
@@ -494,6 +508,7 @@ p.texto-sobre-mi {
 
     }
 }
+
 .texto-formulario {
     margin-top: 10px;
     margin-left: 20px;
@@ -523,15 +538,16 @@ p.texto-sobre-mi {
     flex-direction: row-reverse;
     margin-top: 20px;
 }
+
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .contenedor-thelast {
-       display: block;
+        display: block;
 
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .contenedor-thelast{
+    .contenedor-thelast {
         display: block;
 
     }
@@ -540,6 +556,8 @@ p.texto-sobre-mi {
 .imagen-thelast {
     width: 700px;
     margin-right: 20px;
+    border-radius: 10px;
+    margin-bottom: 30px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -551,7 +569,7 @@ p.texto-sobre-mi {
 
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .imagen-thelast {
-       width: 380px;
+        width: 380px;
 
     }
 }
@@ -568,11 +586,11 @@ p.texto-sobre-mi {
 
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .titulo-thelast {
-       padding-left: 80px;
-       font-size: 30px;
+        padding-left: 80px;
+        font-size: 30px;
 
     }
-} 
+}
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .titulo-thelast {
@@ -593,15 +611,15 @@ p.texto-sobre-mi {
 
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .texto-thelast {
-    margin-left: 20px;
-    margin-right: 20px;
-    padding-bottom: 30px;
+        margin-left: 20px;
+        margin-right: 20px;
+        padding-bottom: 30px;
 
     }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
-    .texto-thelast{
+    .texto-thelast {
         margin-bottom: 30px;
     }
 }
@@ -654,12 +672,14 @@ p.texto-sobre-mi {
     color: rgb(34, 30, 71);
     font-family: 'Open Sans Condensed';
 }
+
 @media only screen and (min-width: 375px) and (max-width: 700px) {
-    .texto-barra-de-navegacion-footer{
+    .texto-barra-de-navegacion-footer {
         font-size: 13px;
         margin: 5px;
     }
 }
+
 .texto-barra-de-navegacion-footer:hover {
     text-decoration: underline;
 }
