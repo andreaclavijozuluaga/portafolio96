@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Rajdhani|Raleway&display=swap');
 @import url('https://fonts.googleapis.com/css?family=PT+Sans+Narrow&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Mukta&display=swap');
 
 *{
     margin: 0px;
@@ -84,6 +85,9 @@ p.texto-sobre-mi{
     font-size: 18px;
 }
 
+/* esta seccion es acerca de mi */
+
+
 .inicio{
     display: flex;
 }
@@ -94,7 +98,7 @@ p.texto-sobre-mi{
 }
 
 .titulo-inicio{
-    padding-left: 300px;
+    padding-left: 250px;
     margin-top: 30px;
     margin-left: auto;
     margin-right: auto;
@@ -112,4 +116,182 @@ p.texto-sobre-mi{
     color:rgb(88, 87, 92) ;
     font-size: 18px;
     text-align: justify;
+}
+
+/* --esta seccion es de mi portafolio */
+
+
+.contenedor-landing{
+    display: flex;
+}
+
+.imagen-landing{
+    width: 700px;
+    margin-left: 20px;
+}
+
+.titulo-landing{
+    padding-left: 160px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans Condensed';
+    font-size: 42px;
+    color:rgb(34, 30, 71) ;
+    border-right: solid rgb(34, 30, 71) ;
+}
+
+.texto-landing {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-family: 'PT Sans Narrow';
+    color:rgb(88, 87, 92) ;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/*  */
+
+.contenedor-studio{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.imagen-studio{
+    width: 400px;
+    margin-right: 130px;
+}
+
+.titulo-studio{
+    padding-left: 220px;
+    margin-top: 30px;
+    margin-right: auto;
+    font-family: 'Open Sans Condensed';
+    font-size: 42px;
+    color:rgb(34, 30, 71) ;
+    border-left: solid rgb(34, 30, 71) ;
+}
+
+.texto-studio {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 40px;
+    font-family: 'PT Sans Narrow';
+    color:rgb(88, 87, 92) ;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.contenedor-studio{
+    margin-top: 10px;
+}
+/*  */
+
+.contenedor-formulario{
+    display: flex;
+    margin-top: 20px;
+}
+
+.imagen-formulario{
+    width: 600px;
+    margin-left: 60px;
+}
+
+.titulo-formulario{
+    padding-left: 160px;
+    margin-top: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans Condensed';
+    font-size: 42px;
+    color:rgb(34, 30, 71) ;
+    border-right: solid rgb(34, 30, 71) ;
+}
+
+.texto-formulario{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-family: 'PT Sans Narrow';
+    color:rgb(88, 87, 92) ;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/*  */
+
+.texto-landing {
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 40px;
+    font-family: 'PT Sans Narrow';
+    color:rgb(88, 87, 92) ;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/*  */
+
+.contenedor-thelast{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-top: 20px;
+}
+
+.imagen-thelast{
+    width: 700px;
+    margin-right: 20px;
+}
+
+.titulo-thelast{
+    padding-left: 120px;
+    margin-top: 30px;
+    margin-right: auto;
+    font-family: 'Open Sans Condensed';
+    font-size: 42px;
+    color:rgb(34, 30, 71) ;
+    border-left: solid rgb(34, 30, 71) ;
+}
+
+.texto-thelast {
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 40px;
+    font-family: 'PT Sans Narrow';
+    color:rgb(88, 87, 92) ;
+    font-size: 18px;
+    text-align: justify;
+}
+
+/* footer */
+
+.contenedor-footer{
+    display: flex;
+}
+
+.copy{
+    font-family: 'Mukta', sans-serif;
+    color: rgba(0, 0, 0, .4);
+    text-align: center;
+    margin: 10px;
+    width: 50%;
+}
+
+.barra-de-navegacion-footer{
+    margin-top: 10px;
+}
+
+.texto-barra-de-navegacion-footer{
+    width: 50%;
+    margin: 20px;
+    text-decoration: none;
+    list-style: none;
+    cursor: pointer;
+    color:rgb(34, 30, 71) ;
+    font-family: 'Open Sans Condensed';
+}
+
+.texto-barra-de-navegacion-footer:hover{
+    text-decoration: underline;
 }
