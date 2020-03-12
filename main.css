@@ -197,10 +197,37 @@ p.texto-sobre-mi {
     display: flex;
 }
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .inicio {
+        display: block;
+
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .inicio {
+        display: block;
+
+    }
+}
+
 .imagen-inicio {
     width: 500px;
     margin-left: 20px;
 }
+
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .imagen-inicio {
+        width: 340px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .imagen-inicio {
+        width: 300x;
+        margin-left: 120px;
+    }
+}
+
 
 .titulo-inicio {
     padding-left: 250px;
@@ -213,6 +240,13 @@ p.texto-sobre-mi {
     border-right: solid rgb(34, 30, 71);
 }
 
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .titulo-inicio {
+        padding-left: 90px;
+
+    }
+}
+
 .texto-inicio {
     margin-top: 10px;
     margin-left: 20px;
@@ -221,6 +255,20 @@ p.texto-sobre-mi {
     color: rgb(88, 87, 92);
     font-size: 18px;
     text-align: justify;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .texto-inicio {
+        margin-right: 20px;
+        margin-bottom: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .texto-inicio {
+        margin-left: 30px;
+        margin-bottom: 50px;
+    }
 }
 
 /* --esta seccion es de mi portafolio */
