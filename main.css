@@ -690,3 +690,61 @@ p.texto-sobre-mi {
         margin: 5px;
     }
 }
+
+
+.redes{
+    margin-top: 180px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .redes {
+    text-align: center;
+    margin: 10px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .redes{
+        text-align: center;
+        margin: 10px;
+    }
+}
+
+.contenedor-contacto{
+    display: flex;
+}
+
+.img-cntacto{
+    width: 600px;
+}
+
+.contenedor-texto-contacto{
+    margin-left: 150px;
+}
+
+.titulo-contacto{
+    padding-left: 160px;
+    margin-top: 120px;
+    margin-left: auto;
+    margin-right: auto;
+    font-family: 'Open Sans Condensed';
+    font-size: 42px;
+    color: rgb(34, 30, 71);
+    border-left: solid rgb(34, 30, 71); 
+}
+
+.texto-contacto{
+    margin-top: 20px;
+    margin-left: 50px;
+    margin-right: 40px;
+    font-family: 'PT Sans Narrow';
+    color: rgb(88, 87, 92);
+    font-size: 18px;
+    text-align: justify;
+}
+
+span{
+    color: rgb(34, 30, 71);
+    font-size: 22px;
+    margin-right: 10px;
+}
