@@ -19,7 +19,7 @@ header {
 
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .contenedor-barra-de-navegacion {
         width: 100%;
         padding: 0px;
@@ -52,7 +52,7 @@ header {
     font-family: 'Open Sans Condensed';
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .texto-barra-de-navegacion {}
 }
 
@@ -83,7 +83,7 @@ header {
     padding-right: 10px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .contenedor-logo {
         padding: 0px;
         margin: 0px 5px;
@@ -111,7 +111,7 @@ section {
     display: flex;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .introduccion {
         display: block;
     }
@@ -150,7 +150,7 @@ section {
     border-left: solid rgb(34, 30, 71);
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .titulo-introduccion {
         width: 80%;
         margin-top: 10px;
@@ -174,7 +174,7 @@ p.texto-sobre-mi {
     font-size: 18px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     p.texto-sobre-mi {
         width: 80%;
         margin-left: 80px;
@@ -197,7 +197,7 @@ p.texto-sobre-mi {
     display: flex;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .inicio {
         display: block;
 
@@ -222,7 +222,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .imagen-inicio {
         width: 300x;
         margin-left: 120px;
@@ -265,7 +265,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .texto-inicio {
         margin-left: 30px;
         margin-bottom: 50px;
@@ -286,7 +286,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .contenedor-landing {
         display: block;
 
@@ -307,7 +307,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .imagen-landing {
         margin-top: 30px;
 
@@ -334,7 +334,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .titulo-landing {
         padding-left: 260px;
 
@@ -351,7 +351,7 @@ p.texto-sobre-mi {
     text-align: justify;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .texto-landing {
         margin-bottom: 30px;
     }
@@ -373,7 +373,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .contenedor-studio {
         display: block;
 
@@ -386,7 +386,7 @@ p.texto-sobre-mi {
     border-radius: 10px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .contenedor-landing {
         display: block;
 
@@ -401,7 +401,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .imagen-studio {
         margin-left: 180px;
 
@@ -463,7 +463,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .contenedor-formulario {
         display: block;
 
@@ -502,7 +502,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .titulo-formulario {
         margin-left: 140px;
 
@@ -546,7 +546,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .contenedor-thelast {
         display: block;
 
@@ -560,7 +560,7 @@ p.texto-sobre-mi {
     margin-bottom: 30px;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .imagen-thelast {
         margin-left: 30px;
 
@@ -592,7 +592,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .titulo-thelast {
         padding-left: 240px;
 
@@ -618,7 +618,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .texto-thelast {
         margin-bottom: 30px;
     }
@@ -645,7 +645,7 @@ p.texto-sobre-mi {
     width: 50%;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .copy {
         width: 50%;
 
@@ -685,7 +685,7 @@ p.texto-sobre-mi {
     text-decoration: underline;
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .texto-barra-de-navegacion-footer {
         width: 50%;
         margin: 5px;
@@ -704,7 +704,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .redes{
         text-align: center;
         margin: 10px;
@@ -721,7 +721,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .redes{
         text-align: center;
         margin: 10px;
@@ -738,7 +738,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .img-cntacto{
         width: 360px;
         margin-bottom: 30px;
@@ -755,7 +755,7 @@ p.texto-sobre-mi {
     margin-left: 10px;
     }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .contenedor-texto-contacto{
         margin-left: 50px;
     }
@@ -778,7 +778,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 540px) and (max-width: 960px) {
     .titulo-contacto{
        margin-top: 20px;
        padding-left: 100px;
@@ -801,7 +801,7 @@ p.texto-sobre-mi {
     }
 }
 
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@@media only screen and (min-width: 540px) and (max-width: 960px) {
     .texto-contacto{
         margin-left: 0px;
     }
