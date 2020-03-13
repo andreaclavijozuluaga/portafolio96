@@ -31,7 +31,7 @@ header {
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .contenedor-barra-de-navegacion {
         width: 100%;
-        padding: 5px;
+        padding: 10px;
 
 
     }
@@ -59,7 +59,7 @@ header {
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .texto-barra-de-navegacion {
         font-size: 14px;
-        margin: 5px;
+        margin: 10px;
 
 
     }
@@ -647,7 +647,7 @@ p.texto-sobre-mi {
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
     .copy {
-        width: 40%;
+        width: 50%;
 
     }
 }
@@ -676,7 +676,8 @@ p.texto-sobre-mi {
 @media only screen and (min-width: 375px) and (max-width: 700px) {
     .texto-barra-de-navegacion-footer {
         font-size: 13px;
-        margin: 5px;
+        margin: 13px;
+        margin-bottom: 10px;
     }
 }
 
@@ -714,12 +715,50 @@ p.texto-sobre-mi {
     display: flex;
 }
 
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .contenedor-contacto {
+    display: block;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .redes{
+        text-align: center;
+        margin: 10px;
+    }
+}
+
 .img-cntacto{
     width: 600px;
 }
 
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .img-cntacto {
+    width: 350px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .img-cntacto{
+        width: 360px;
+        margin-bottom: 30px;
+    }
+}
+
+
 .contenedor-texto-contacto{
     margin-left: 150px;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .contenedor-texto-contacto {
+    margin-left: 10px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .contenedor-texto-contacto{
+        margin-left: 50px;
+    }
 }
 
 .titulo-contacto{
@@ -732,7 +771,19 @@ p.texto-sobre-mi {
     color: rgb(34, 30, 71);
     border-left: solid rgb(34, 30, 71); 
 }
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .titulo-contacto {
+    margin-top: 10px;
+    padding-left:120px;
+    }
+}
 
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .titulo-contacto{
+       margin-top: 20px;
+       padding-left: 100px;
+    }
+}
 .texto-contacto{
     margin-top: 20px;
     margin-left: 50px;
@@ -741,6 +792,19 @@ p.texto-sobre-mi {
     color: rgb(88, 87, 92);
     font-size: 18px;
     text-align: justify;
+}
+
+@media only screen and (min-width: 375px) and (max-width: 700px) {
+    .texto-contacto {
+    margin-bottom: 20px;
+    margin-left: 30px;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+    .texto-contacto{
+        margin-left: 0px;
+    }
 }
 
 span{
